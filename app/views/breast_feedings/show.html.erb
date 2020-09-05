@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Quantity:</strong>
+  <%= @breast_feeding.quantity %>
+</p>
+
+<p>
+  <strong>Duration:</strong>
+  <%= @breast_feeding.duration %>
+</p>
+
+<p>
+  <strong>Baby:</strong>
+  <%= @breast_feeding.baby %>
+</p>
+
+<%= link_to 'Edit', edit_breast_feeding_path(@breast_feeding) %> |
+<%= link_to 'Back', breast_feedings_path %>
